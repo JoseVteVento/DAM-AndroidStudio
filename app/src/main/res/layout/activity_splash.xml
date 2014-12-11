@@ -3,9 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SplashActivity"
-    android:background="@drawable/clave_de_sol">
+    >
+    <!-- android:background="@drawable/clave_de_sol"-->
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:scaleType="fitXY"
+        android:src="@drawable/clave_de_sol"
 
-
-
+    />
 </RelativeLayout>
